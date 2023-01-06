@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 
@@ -7,7 +7,7 @@
 
 /* Header section */
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,25 +16,27 @@ header{
     height: 100vh;
     background-blend-mode: overlay;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
 }
-header > div{
+
+header>div {
     margin-top: 200px;
     width: 50%;
 }
+
 .header-title {
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 25px;
 }
 
-div > p{
+.sub-description {
     font-weight: 400;
-font-size: 18px;
+    font-size: 18px;
 }
 
-.btn-primary{
+.btn-primary {
     margin-top: 25px;
     background-color: orange;
     font-size: 18px;
@@ -42,5 +44,97 @@ font-size: 18px;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: rgb(2, 2, 2);
 }
+
+.common-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+
+}
+
+.common-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(25, 25, 25);
+}
+
+.donate-today>div,
+.main-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.donate-today>div>div {
+
+    text-align: center;
+    width: 50%;
+
+}
+
+.btn-amount {
+    width: 136px;
+    height: 123px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(109, 255, 109);
+    color: white;
+    transition-delay: 0.1s;
+}
+
+
+#other-amount {
+    width: 700px;
+    border: none;
+    text-align: center;
+    border-bottom: solid black 1px;
+    outline: none;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 50px;
+
+
+}
+
+.plan-h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#plan1 {
+    background-color: rgba(79, 157, 166, 0.1);
+
+}
+
+#plan2 {
+    background: rgba(255, 89, 89, 0.1);
+
+}
+
+#plan3 {
+    background-color: rgb(255, 244, 214);
+}
+
+/* our donation plan end  */
