@@ -138,3 +138,40 @@ header>div {
 }
 
 /* our donation plan end  */
+
+
+.top-blog {
+   
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.left-blog {
+   
+    width: 500px;
+    height: 400px;
+
+}
+.left-blog > h2{
+    font-weight: 700;
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.left-blog > p{
+    font-weight: 400;
+font-size: 18px;
+color: #707070;
+margin-bottom: 10px;
+
+}
+
+
+
+
+
+.right-img img {
+    width: 500px;
+    height: 400px;
+}
