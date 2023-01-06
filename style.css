@@ -103,6 +103,7 @@ header>div {
 .plans {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .plan {
@@ -144,22 +145,25 @@ header>div {
    
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
     
 }
 
 .left-blog {
+    display: flex;
+    align-items: center;
    
     width: 500px;
     height: 400px;
 
 }
-.left-blog > h2{
+.left-blog > div > h2{
     font-weight: 700;
 font-size: 40px;
 margin-bottom: 10px;
 }
 
-.left-blog > p{
+.left-blog > div > p{
     font-weight: 400;
 font-size: 18px;
 color: #707070;
@@ -174,4 +178,5 @@ margin-bottom: 10px;
 .right-img img {
     width: 500px;
     height: 400px;
+    border-radius: 10px;
 }
